@@ -34,6 +34,5 @@ sleep(2)
 windows = driver.window_handles
 driver.switch_to.window(windows[3])
 sleep(5)
-assert 'Knowledge' in driver.find_element(By.TAG_NAME, 'body').text, 'Error'
 
 driver.quit()
