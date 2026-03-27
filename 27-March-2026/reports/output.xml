@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.5 on win32)" generated="2026-03-27T15:56:39.529939" rpa="false" schemaversion="5">
+<suite id="s1" name="Checkboxes" source="C:\Users\hp5cd\OneDrive\Desktop\capgemniii\ROBO_PY\Selenium\27-March-2026\checkboxes.robot">
+<test id="s1-t1" name="Handling Checkboxes" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-27T15:56:39.761109" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-27T15:56:39.760740" elapsed="5.282573"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-27T15:56:45.043967" elapsed="0.035319"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-27T15:56:46.080866" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-27T15:56:45.079753" elapsed="1.001243"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-03-27T15:56:46.081670" level="INFO">Clicking element 'xpath=//a[text()="Checkboxes"]'.</msg>
+<arg>xpath=//a[text()="Checkboxes"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-27T15:56:46.081308" elapsed="0.418633"/>
+</kw>
+<kw name="Page Should Contain Checkbox" owner="SeleniumLibrary">
+<msg time="2026-03-27T15:56:46.628544" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-6.png"&gt;&lt;img src="selenium-screenshot-6.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-03-27T15:56:46.628703" level="FAIL">Page should have contained checkbox 'xpath=(//input[@type="checkboxs"])[1]' but did not.</msg>
+<arg>xpath=(//input[@type="checkboxs"])[1]</arg>
+<doc>Verifies checkbox ``locator`` is found from the current page.</doc>
+<status status="FAIL" start="2026-03-27T15:56:46.500482" elapsed="0.188951">Page should have contained checkbox 'xpath=(//input[@type="checkboxs"])[1]' but did not.</status>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<arg>xpath=(//input[@type="checkbox"])[1]</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-03-27T15:56:46.689857" elapsed="0.000048"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-03-27T15:56:46.690103" elapsed="0.000040"/>
+</kw>
+<kw name="Unselect Checkbox" owner="SeleniumLibrary">
+<arg>xpath=(//input[@type="checkbox"])[2]</arg>
+<doc>Removes the selection of checkbox identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-03-27T15:56:46.690324" elapsed="0.000032"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-03-27T15:56:46.690542" elapsed="0.000034"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2026-03-27T15:56:46.690909" elapsed="0.000036"/>
+</kw>
+<doc>herokuapp checkboxes</doc>
+<status status="FAIL" start="2026-03-27T15:56:39.759685" elapsed="6.931560">Page should have contained checkbox 'xpath=(//input[@type="checkboxs"])[1]' but did not.</status>
+</test>
+<doc>handling checkboxes</doc>
+<status status="FAIL" start="2026-03-27T15:56:39.531705" elapsed="7.160265"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Checkboxes" id="s1" pass="0" fail="1" skip="0">Checkboxes</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
