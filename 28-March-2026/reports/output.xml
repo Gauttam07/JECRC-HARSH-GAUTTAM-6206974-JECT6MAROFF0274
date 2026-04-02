@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.5 on win32)" generated="2026-03-28T13:20:41.751864" rpa="false" schemaversion="5">
+<suite id="s1" name="Screenshot" source="C:\Users\hp5cd\OneDrive\Desktop\capgemniii\ROBO_PY\Selenium\28-March-2026\screenshot.robot">
+<test id="s1-t1" name="Screenshots" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-28T13:20:41.989615" level="INFO">Opening browser 'chrome' to base url 'https://in.bookmyshow.com/explore/home/jaipur'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-28T13:20:41.989367" elapsed="4.521826"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-28T13:20:46.511701" elapsed="0.040850"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-28T13:20:48.554060" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-28T13:20:46.553029" elapsed="2.001222"/>
+</kw>
+<kw name="Set Screenshot Directory" owner="SeleniumLibrary">
+<arg>C:\\Users\\hp5cd\\OneDrive\\Desktop\\capgemniii\\ROBO_PY\\Selenium\\28-March-2026/Screenshots</arg>
+<doc>Sets the directory for captured screenshots.</doc>
+<status status="PASS" start="2026-03-28T13:20:48.554687" elapsed="0.000379"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-03-28T13:20:48.669044" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../Screenshots/ss1.png"&gt;&lt;img src="../Screenshots/ss1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>ss1.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-03-28T13:20:48.555308" elapsed="0.113889"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-28T13:20:50.670523" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-28T13:20:48.669568" elapsed="2.001076"/>
+</kw>
+<kw name="Mouse Over" owner="SeleniumLibrary">
+<msg time="2026-03-28T13:20:50.671387" level="INFO">Simulating Mouse Over on element 'xpath=//img[@alt="Dhurandhar The Revenge"]'.</msg>
+<arg>xpath=//img[@alt="Dhurandhar The Revenge"]</arg>
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<status status="PASS" start="2026-03-28T13:20:50.670960" elapsed="0.293544"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-28T13:20:52.965782" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-28T13:20:50.964895" elapsed="2.000995"/>
+</kw>
+<kw name="Capture Element Screenshot" owner="SeleniumLibrary">
+<msg time="2026-03-28T13:20:53.069894" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../Screenshots/Dhurandhar.png"&gt;&lt;img src="../Screenshots/Dhurandhar.png" width="400px"&gt;&lt;/a&gt;</msg>
+<arg>xpath=//img[@alt="Dhurandhar The Revenge"]</arg>
+<arg>Dhurandhar.png</arg>
+<doc>Captures a screenshot from the element identified by ``locator`` and embeds it into log file.</doc>
+<status status="PASS" start="2026-03-28T13:20:52.966209" elapsed="0.103818"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-28T13:20:53.070469" elapsed="2.205072"/>
+</kw>
+<status status="PASS" start="2026-03-28T13:20:41.988449" elapsed="13.287463"/>
+</test>
+<doc>handling Screenshot</doc>
+<status status="PASS" start="2026-03-28T13:20:41.753392" elapsed="13.523244"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Screenshot" id="s1" pass="1" fail="0" skip="0">Screenshot</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
